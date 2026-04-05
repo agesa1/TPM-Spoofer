@@ -40,6 +40,8 @@ You **MUST clear the TPM before using this tool**.
 2. Type **Clear-TPM**
 3. Run as admin tpm-spoofer.exe
 4. Check your TPM serials
+   
+---
 
 ## Installation & Build
 
