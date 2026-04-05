@@ -40,7 +40,9 @@ You **MUST clear the TPM before using this tool**.
 2. Type **Clear-TPM**
 3. Run as admin tpm-spoofer.exe
 4. Check your TPM serials
-   
+
+https://www.youtube.com/watch?v=AUCJlpRXFKA
+
 ---
 
 ## Installation & Build
@@ -55,4 +57,3 @@ go get github.com/google/go-tpm/tpmutil
 go mod tidy
 
 go build -o tpm-spoof.exe
-
