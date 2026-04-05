@@ -43,10 +43,14 @@ You **MUST clear the TPM before using this tool**.
 
 ## Installation & Build
 
-- git clone https://github.com/yourusername/tpm-spoofer.git
-- cd tpm-spoofer
-- go mod init tpm-spoofer
-- go get github.com/google/go-tpm/legacy/tpm2
-- go get github.com/google/go-tpm/tpmutil
-- go mod tidy
-- go build -o tpm-spoofer.exe
+```cmd
+go mod init tpm-spoof
+
+go get github.com/google/go-tpm/legacy/tpm2
+
+go get github.com/google/go-tpm/tpmutil
+
+go mod tidy
+
+go build -o tpm-spoof.exe
+
