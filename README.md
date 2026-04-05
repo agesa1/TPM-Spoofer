@@ -34,15 +34,14 @@ This tool performs operations similar to the Linux `tpm2_evictcontrol` command.
 
 You **MUST clear the TPM before using this tool**.
 
-### Method 1: Windows Security
+### Step 1: Windows Security
 
-1. Open **Windows Security**
-2. Go to **Device Security**
-3. Click **Security processor troubleshooting**
-4. Click **Clear TPM**
-5. Restart your system
+1. Open **PowerShell**
+2. Type **Clear-TPM**
+3. Run as admin tpm-spoofer.exe
+4. Check your TPM serials
 
-## Installation
+## Installation & Build
 
 - git clone https://github.com/yourusername/tpm-spoofer.git
 - cd tpm-spoofer
