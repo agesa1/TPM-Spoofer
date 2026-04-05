@@ -41,7 +41,7 @@ You **MUST clear the TPM before using this tool**.
 3. Run as admin tpm-spoofer.exe
 4. Check your TPM serials
 
-https://www.youtube.com/watch?v=AUCJlpRXFKA
+USAGE: https://www.youtube.com/watch?v=AUCJlpRXFKA
 
 ---
 
